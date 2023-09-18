@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:regular,500,600,700);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #1a1a1a;
+    width: 100vw;
+}
+
+.navbar-title {
+    margin: 0;
+    font-size: 30px;
+    color: #fff;
+}
+
+.navbar-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-items li {
+    margin-left: 10px;
+}
+
+.navbar-items li:first-child {
+    margin-left: 0;
+}
+
+.navbar-items a {
+    text-decoration: none;
+    color: #fff
+}
+
+.hero-section {
+    background-image: url('images/back.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100vw;
+}
+
+.container {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.section-title {
+    font-size: 60px;
+    font-family: "Dacing Script";
+    font-style: italic;
+    color: #ffffff;
+    margin-bottom: -25px;
+}
+
+.section-title-2 {
+    font-size: 80px;
+    color: #ffffff;
+    margin-bottom: 10px;
+
+}
+
+.section-description {
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: -25px;
+    text-transform: capitalize;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #1a1a1a;
+    color: #fff;
+    width: 100vw;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+}
+
+.about p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    /* Add margin-right to create space between the paragraphs */
+}
+
+.about button {
+    margin-top: 20px;
+}
