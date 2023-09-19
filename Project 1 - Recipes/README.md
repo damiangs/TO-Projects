@@ -5,6 +5,7 @@ The Ramen Recipes Website is a delightful culinary project that celebrates the a
 ## Technologies Used
 
 **HTML**: Provides the structure and content of the website, including the recipe pages.
+
 **CSS**: Enhances the visual appeal and layout, creating an attractive and intuitive design.
 
 
